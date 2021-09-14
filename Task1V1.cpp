@@ -1,6 +1,6 @@
 /*
 Program that calculates the variant number
-Variant number – the remainder of dividing the sum of all the letters
+Variant number â€“ the remainder of dividing the sum of all the letters
 of the surname by the number of variants.
 */
 
@@ -17,8 +17,9 @@ int main()
 	cout << "Enter a surname" << endl;
 	cin >> sname;
 	
-	int var = sname.length() % numvar + 1;
+	int var = sname.length() % numvar;
 	/*sname.length() - string length or number of letters
 	(sum of all the letters of the surname)*/
-	cout << "Your variant - " << var;
+	if ( var == 0) cout << "Your variant - 1" ;
+	else cout << "Your variant - " << var;
 }
