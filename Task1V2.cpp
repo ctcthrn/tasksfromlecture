@@ -1,6 +1,5 @@
 /*
 Program that calculates the variant number
-3.Golunova => 8/3~2.67 remainder 2 => variant 2
 Variant number - the remainder of the division of the code 
 of the 1st letter of the name by the number of variants.
 */
