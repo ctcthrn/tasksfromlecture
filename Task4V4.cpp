@@ -1,3 +1,19 @@
+/*
+Вариант определяется, как номер по списку % 2 + 3
+3. Голунова 3 % 2 + 3 = 4
+
+Вариант 4.
+- Создать структуру ConnectionList, содержащую статический массив указателей на класс Protocol и число считанных протоколов,  
+функцию для добавления туда классов, соответствующих протоколам, считанным из файла
+
+struct ConnectionList { 
+  Protocol* mas[100];
+  int count = 0;
+};
+void addProtocol(ConnectionList*p, Protocol* newProtocol );
+- Написать функцию для печати всех животных void sendAll(ConnectionList*p)
+*/
+
 #include <iostream>
 #include <fstream>
 #include <list>
